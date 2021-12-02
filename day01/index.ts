@@ -1,3 +1,17 @@
+function run1(input: Array<string>) {
+    let comptor = 0;
+
+    for(let i=0; i<input.length; i++)
+    {
+        if(parseInt(input[i])>parseInt(input[i-1]))
+        {
+            comptor ++;
+        }
+    }
+    console.log(comptor);
+}
+
+
 function run2(input: Array<string>) {
     let comptor = 0;
     let result = 0;
@@ -19,4 +33,5 @@ function run2(input: Array<string>) {
     console.log(comptor)
 }
 
-export {run2}
+export {run1,run2}
+
