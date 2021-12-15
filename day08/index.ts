@@ -25,7 +25,6 @@ function run1(input: string[]) {
         outputValue = []
         signalPatterns = []
     }
-
     console.log(counter)
 }
 
